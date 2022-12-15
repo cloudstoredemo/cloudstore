@@ -75,15 +75,13 @@ header > p {
 }
 
 .title > .xu-huong-moi-nhat{
+    text-align: center;
     
-    width: fit-content;
-    margin-left: 40%;
+    
 }
 
 .title > .hang-moi-ve{
-    
-    width: fit-content;
-    margin-left: 44%;
+    text-align: center;
 }
 
 
@@ -127,24 +125,33 @@ header > p {
     margin: 10px;
 }
 
-footer{
+.footer{
+    background-color: black; 
     display: flex;
-    background-color: black;
-    height: 400px;
-    overflow: hidden;
+    align-items: flex-start;
+    width: 100%;
 }
 
 .ft1{
-    display: inline-block;
     color: white;
     width: 22%;
-    height: 400px;
     margin: 20px;
 }
 
+.ft1 > img{
+    width: 100%;
+}
+
+
+
 .product{
     overflow: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
+
+
 
 .product > img{
     transition: 0.5s;
