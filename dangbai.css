@@ -1,5 +1,20 @@
 .form{
     width: 500px;
-    height: 200px;
-    background-color: black;
+   border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    margin: 10px auto;
+}
+
+.dangtin{
+    
+    text-align: center;
+}
+
+.it{
+    margin-left: 20px;
+    
+}
+
+.bxs-right-arrow{
+    position: relative;
+    
 }
