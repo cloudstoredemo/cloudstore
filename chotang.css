@@ -1,0 +1,56 @@
+.product-cho-tang{
+    display: flex;
+    height: 200px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.3s;
+    border-radius: 5;
+}
+
+.product-cho-tang:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img{
+   object-fit: contain;
+   overflow: hidden;
+   margin-right: 20px;
+}
+
+.img>a>img{
+    width: 200px;
+    transition: 0.3s;
+}
+
+.img>a>img:hover{
+    transform: scale(1.1);
+}
+
+
+.tieudesanpham{
+   width: 100%;
+   height: fit-content;
+}
+
+.nguoidangsanpham{
+    width: 100%;
+    height: fit-content;
+    color:cadetblue;
+}
+
+.thongtinsanpham{
+    margin-top: 120px;
+    font-size:13px;
+}
+
+.row{
+    margin-bottom: 30px;
+}
+
+.bx-gift{
+    font-size: 20px;
+    margin-right: 10px ;
+    color:cadetblue;
+}

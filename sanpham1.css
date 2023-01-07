@@ -1,0 +1,96 @@
+.noi-dung-san-pham{
+    display: flex;
+}
+
+.carousel{
+    width: 500px;
+    margin:0px 150px 10px 200px;
+    display: inline-block;
+}
+
+.title{
+    display: inline-block;
+    margin: 20px 20px 20px 0px;
+}
+
+.bxs-star{
+    font-size: 15px;
+    color: darksalmon;
+    margin-right: 10px;
+}
+
+.bxs-star-half{
+    font-size: 15px;
+    color: darksalmon;
+}
+
+.gia-ban{
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.size{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.m{
+    margin: 0px 20px 0px 10px;
+    border: 1px solid darksalmon;
+    width: 22px;
+    text-align: center;
+    color: darksalmon;
+    font-weight: bold;
+}
+
+.wrap-so-luong{
+    display: flex;
+}
+
+.so-luong{
+    display: flex;
+    border: 1px solid darksalmon;
+    height: fit-content;
+    margin: 0px 20px 20px;
+    
+}
+
+.so-luong>div{
+    display: inline-block;
+    margin: 0px 20px 0px;
+    
+    height: 27px;
+}
+
+.mua-hang{
+    display: flex;
+}
+
+.mua-hang>p{
+    margin: 60px 20px;
+    padding: 5px;
+    border: 1px solid black;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.mua-hang>p:hover{
+    background-color:darksalmon ;
+    color: white;
+    
+}
+
+.mo-ta{
+    display: flex;
+}
+
+.anh1>div>img{
+    width: 1020px;
+    margin: 20px 0px 0px 50px;
+}
+
+.anh2>div>img{
+    width: 350px;
+    margin: 20px;
+}
+

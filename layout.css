@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 header{
@@ -11,6 +12,36 @@ header{
     font-family: 'Montserrat', sans-serif;
     padding: 15px;
     position: relative;
+    
+}
+
+.user{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top:20px;
+}
+
+.dang-bai{
+    margin-right: 20px;
+    border: 1px solid #fabda6;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.dang-bai>a{
+    text-decoration: none;
+    color: #fabda6;
+}
+
+.dang-bai:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.bx-user{
+    font-size: 20px;
 }
 
 header > p {
@@ -64,6 +95,64 @@ header > p {
     margin-bottom: 50px;
 }
 
+.cl {
+    position: relative;
+}
+
+#cl-ao:hover .menu1{
+    display: block;
+    
+}
+
+#cl-quan:hover .menu2{
+    display: block;
+}
+
+i{
+    font-size: 10px;
+}
+
+.bx-home-heart{
+    font-size: 25px;
+}
+
+.ao{
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.quan{
+    display: inline-block;
+    margin-right: 60px;
+}
+
+
+
+.menu1{
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,.15);
+    position: absolute;
+    z-index: 1;
+    transform: translate(160px,-30px);
+    transition: 1s;
+    display: none;
+}
+
+.menu2{
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,.15);
+    position: absolute;
+    z-index: 1;
+    transform: translate(160px,-30px);
+    transition: 1s;
+    display: none;
+}
+
+
+
+
 .slide1{
     margin-bottom: 40px;
 }
@@ -96,6 +185,10 @@ header > p {
     width: 100%;
 }
 
+.product >a> img{
+    width: 100%;
+}
+
 .product > .name-product{
     font-size: 15px;
     font-weight: bold;
@@ -121,8 +214,9 @@ header > p {
 }
 
 .anh-thuong-hieu{
-    width:15%;
+    width:100%;
     margin: 10px;
+    
 }
 
 .footer{
@@ -155,9 +249,15 @@ header > p {
 
 .product > img{
     transition: 0.5s;
+}.product >a> img{
+    transition: 0.5s;
 }
 
 .product > img:hover{
+    transform: scale(1.2);
+}
+
+.product >a> img:hover{
     transform: scale(1.2);
 }
 
@@ -167,8 +267,8 @@ header > p {
     height: 50px;
     border: solid black 2px;
     font-weight: bold;
-    transition: 0.3s;
-    margin: auto;
+    transition: 0.5s;
+    margin: 10px auto;
 }
 
 .dep-trai > p{
