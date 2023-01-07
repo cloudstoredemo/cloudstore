@@ -15,6 +15,23 @@ header{
     
 }
 
+.ngon-ngu{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 13px;
+}
+
+.ngon-ngu>div>img{
+    width: 20px;
+    margin-left: 2px;
+}
+
+.ngon-ngu>div{
+    margin: 5px;
+    margin-top: 10px;
+}
+
 .user{
     display: flex;
     position: absolute;
